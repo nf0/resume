@@ -6,113 +6,79 @@
   import Work from "./Work.svelte"
 
   const introData = {
-    name: "Manassarn Manoonchai",
-    nickname: "Noom",
-    phone: "+66863949474",
-    email: "manassarn@gmail.com",
-    github: "narze",
+    name: "Satawat Khanthahom",
+    nickname: "Bee",
+    phone: "",
+    email: "nfo@pm.me",
+    github: "nf0",
     linkedin: "manassarnmanoonchai",
-    location: "Bangkok, Thailand",
-    website: "monosor.com",
+    location: "Chiang Mai, Thailand",
+    website: "nf0.cc",
   }
 
   const workExperiences = [
     {
-      position: "Full-stack Developer, Co-founder",
-      company: "EventPop",
-      url: "https://eventpop.me",
-      years: ["2015", "Current"],
+      position: "Part-time Software Developer",
+      company: "Magic Box Asia",
+      url: "https://www.magicboxasia.com/",
+      years: ["April 2021", "July 2021"],
+    },
+    {
+      position: "Software Developer",
+      company: "20Scoops CNX",
+      url: "https://20scoopscnx.com/",
+      years: ["April 2020", "October 2020"],
+    },
+    {
+      position: "Part-time IT Project Coordinator",
+      company: "Kaltura (Singapore)",
+      url: "https://corp.kaltura.com/",
+      years: ["October 2019", "March 2020"],
       details: [
-        "Designed, developed and maintained several core services for EventPop website (Ticketing, Payment, Billing, Reporting, APIs, etc.) using Ruby on Rails",
-        "Maintained server operations, deployments, CI/CD. Also pioneered DevOps practices in the team",
-        "Integrated 3rd-party services : Kerry Express, DHL, Queue-It",
-        "Integrated payment service providers : Omise, ThaiEPay, 123 by 2C2P, SCB-Easy, K-PayPlus, K-PaymentGateway",
+        "Performed risk management to minimize project risks.",
+        
+        "Coordinated with internal and external various teams to achieve project goals.",
       ],
     },
     {
-      position: "Maker, Co-founder",
-      company: "Maker Zoo",
-      url: "https://fb.me/makerzoo",
-      years: ["2014", "2016"],
+      position: "Software Developer",
+      company: "SeedThemes",
+      url: "https://seedthemes.com/",
+      years: ["November 2018", "2019"],
       details: [
-        "Pioneered Maker Movement in Thailand by opening first of the Makerspaces in Bangkok",
-        "Hosted maker workshops eg. 3D-modeling, 3D-printing, Arduino, IoT, etc",
-        "Developed hardware-related products for clients and startups",
-        "Developed smart door lock system for Hubba, a co-working space in Bangkok",
-        "Provided 3D-printing service & consultant",
+        "Implemented features, functions, themes for WordPress based websites",
+        "Managed and updated CMS functionalities ",
+        "Managed multilingual, membership and eCommerce (WooCommerce) websites",
       ],
     },
     {
-      position: "Web / IoT Developer (Contract)",
-      company: "Box24",
-      url: "https://washbox24.com",
-      years: ["2015", "2016"],
+      position: "Part-Time Web Developer & IT Support",
+      company: "UD Town",
+      url: "https://www.goudtown.com",
+      years: ["2012", "2013"],
       details: [
-        "Developed internet connected Smart Lockers System using web technologies (Node.js, React.js) on embedded systems (Ubuntu Linux, Arduino, Raspberry Pi)",
-        "Developed private Node.js library to connect with Nayax via serial port to receive cashless payment on vending machines, and also supported Thai Baht cash payment",
-      ],
-    },
-    {
-      position: "Web Developer",
-      company: "Figabyte",
-      url: "https://www.facebook.com/figabyte",
-      years: ["2011", "2014"],
-      details: [
-        "Developed several Facebook web apps with CodeIgniter, using Facebook API",
-        "Developed web platform using Ruby on Rails 3 & 4",
-        "Made iOS apps for clients using PhoneGap and RubyMotion",
-      ],
-    },
-    {
-      position: "Part-time Web Developer",
-      company: "Wongnai Media (wongnai.com)",
-      url: "https://wongnai.com",
-      years: ["2010"],
-      details: [
-        "Developed a small part of website using Java with Spring MVC Framework built with Apache Maven",
-        "Learned TDD practice & making early-stage startup",
+        "Implemented internal websites",
+        "Managed and maintained network, server, and PC health for staffs",
+        "Monitored and maintained all levels of network security internally and externally",
+        "Identified, diagnosed, and resolved network problems"
       ],
     },
   ]
 
   const projects = [
     {
-      name: "Manoonchai",
+      name: "",
       details:
-        "Modern, productive, and data-driven Thai keyboard layout. A collection of projects built with TypeScript, Elixir, Svelte",
-      url: "github.com/manoonchai",
-    },
-    {
-      name: "9armbot (Contributor)",
-      details:
-        "Twitch & Discord bot for 9arm (Thai technology Youtuber). I helped re-structuring the project using TypeScript & Prisma",
-      url: "github.com/thananon/twitch_tools",
-    },
-    {
-      name: "Dotfiles",
-      details:
-        "macOS dotfiles with setup script for self use, tested on Apple Silicon Macs (Zsh, Zinit, Dotbot, GNU Make, etc.)",
-      url: "github.com/narze/dotfiles",
-    },
-    {
-      name: "#100DaysOfCode",
-      details:
-        "My take on practicing modern frontend development by building small projects in 100 days",
-      url: "100daysofcode-narze.vercel.app",
-    },
-    {
-      name: "Baht.rb",
-      details: "Ruby gem to convert number to Thai Baht format",
-      url: "rubygems.org/gems/baht",
+        "",
+      url: "",
     },
   ]
 
   const interests = [
-    "Areas : Coding, Productivity & Life-hacks, Mechanical Keyboards",
-    "Typing : 120+ words per minute (Colemak Mod-DH layout)",
-    "Games : Music games, FPS, MOBA, Puzzle",
-    "Music : EDM, Rock, Japanese",
-    "Pets : I have 3 dogs",
+    "Areas : Coding, Productivity",
+    "Games : Music games, FPS",
+    "Music : EDM, Indie, Ambient, Downtempo ",
+    "DJ : Scratching, Club Mixing ",
   ]
 
   const fullVersionLink = "https://manassarn-resume.vercel.app"
@@ -182,30 +148,27 @@
     <ul class="text-left list-disc pl-8">
       <li>
         <span class="w-28 inline-block">Languages:</span>
-        <span
-          >Ruby, JavaScript, Node.js (strong). TypeScript, SQL (proficient).</span
-        >
+        <span>
+          PHP, JavaScript, SQL (proficient).
+        </span>
       </li>
       <li>
         <span class="w-28 inline-block">Frameworks:</span>
-        <span
-          >Ruby on Rails, ReactJS, NextJS, NestJS, Svelte, TailwindCSS,
-          Bootstrap</span
-        >
+        <span>
+         VueJS, Svelte, TailwindCSS, Bootstrap 
+        </span>
       </li>
       <li>
         <span class="w-28 inline-block">Tools:</span>
-        <span
-          >Git, Terraform, Docker, Kubernetes, Helm, ArgoCD, FluxCD, Robot
-          Framework, Selenium, Zsh</span
-        >
+        <span>
+          Git, Docker, Kubernetes, Fish
+        </span>
       </li>
       <li>
         <span class="w-28 inline-block">Other:</span>
-        <span
-          >AWS, GCP, Firebase, Vercel, DigitalOcean, Cloud66, Github Actions,
-          CircleCI, CloudFlare</span
-        >
+        <span>
+          AWS, GCP, Firebase, Vercel, DigitalOcean, Github Actions,CircleCI, CloudFlare
+        </span>
       </li>
     </ul>
   </section>
@@ -215,8 +178,8 @@
 
     <ul class="text-left list-disc pl-8">
       <li>
-        <strong>B.Eng. Computer Engineering</strong>, Chulalongkorn University,
-        TH. 2007-2010 (GPA 3.45)
+        <strong>B.Sc. Information Technology</strong>, Chiang Mai Rajabhat University,
+        TH.
       </li>
     </ul>
   </section>
@@ -228,6 +191,7 @@
       <Work {...exp} />
     {/each}
   </section>
+  <!-- 
   <section>
     <h2 class="text-2xl print:text-4xl uppercase text-left">Projects</h2>
     <hr />
@@ -244,6 +208,7 @@
       {/each}
     </ul>
   </section>
+  -->
   <section>
     <h2 class="text-2xl print:text-4xl uppercase text-left">Interests</h2>
     <hr />
