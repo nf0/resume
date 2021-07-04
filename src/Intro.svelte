@@ -38,6 +38,11 @@
         >{website}</a
       >
     </p>
+    <p>
+      <a href={`https://linkedin.com/in/${linkedin}`} target="_blank" rel="noreferrer"
+        >LinkedIn</a
+      >
+    </p>
     
   </div>
 </div>

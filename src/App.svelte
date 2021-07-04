@@ -11,7 +11,7 @@
     phone: "",
     email: "nfo@pm.me",
     github: "nf0",
-    linkedin: "manassarnmanoonchai",
+    linkedin: "satawat-khanthahom-541377169",
     location: "Chiang Mai, Thailand",
     website: "nf0.cc",
   }
